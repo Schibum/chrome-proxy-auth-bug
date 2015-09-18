@@ -1,0 +1,11 @@
+{
+  "name": "Proxy Auth Bug Demo",
+  "description": "Demo Extension.",
+  "version": "0.1",
+  "permissions": ["<all_urls>"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "manifest_version": 2
+}
