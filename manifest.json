@@ -2,7 +2,12 @@
   "name": "Proxy Auth Bug Demo",
   "description": "Demo Extension.",
   "version": "0.1",
-  "permissions": ["<all_urls>"],
+  "permissions": ["<all_urls>", "identity"],
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAy6Nhr6FKbqgayQ3nFFiJ758dD1vOsZAfoZFm2A1LetDkf3rEGxTdNmrBaSH9ghfnvwWvIJhwxllg56gsVUbx3umdEpu/iUimezaBHQX1yoAIXFBL3+ojLVTrZJo8U0u/qS2+V9FSYadqDEaBE2fCszAaX9IA0oWmh6w2Q7otIfC37DYfeTpuykG5cJh56Sc10L9PapgOIEg5q908BsQ/SXcXHBbKl0rpUfYyYFzs1zqd6y6ta3dNE4YMwpMK/pGQ9R7lQmuNfGH+uFOIbgbEO8s4HdoVPF0at1H0V8hOxIevnRgbDfo+ekDdwrgRItkXCtKQz+XWYmC6eJEbB7PAywIDAQAB",
+  "oauth2": {
+    "client_id": "242262968495-vam8ele6sc3j5q90mcn3sd29l2bq5m1s.apps.googleusercontent.com",
+    "scopes": [ "https://www.googleapis.com/auth/plus.me", "email"]
+  },
   "background": {
     "scripts": ["background.js"],
     "persistent": false
